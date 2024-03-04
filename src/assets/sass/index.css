@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  background: #202020; }
+
+.tauriastro {
+  width: 100vh;
+  height: 75vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  place-items: center; }
+  .tauriastro .Logos {
+    display: flex;
+    gap: 3em;
+    place-items: center;
+    flex-direction: column; }
+    .tauriastro .Logos h1 {
+      color: white;
+      text-align: center; }
+    .tauriastro .Logos ul {
+      list-style-type: none;
+      display: flex;
+      gap: 3em;
+      flex-direction: row; }
+      .tauriastro .Logos ul li img {
+        height: 150px; }
+    .tauriastro .Logos .Tips {
+      display: flex;
+      justify-content: center;
+      place-items: center;
+      flex-direction: column;
+      gap: 1em; }
+      .tauriastro .Logos .Tips p {
+        color: white; }
+        .tauriastro .Logos .Tips p .Box {
+          padding: 4px 8px;
+          background: #252525;
+          margin: 0 5px;
+          color: lightgreen;
+          border-radius: 4px; }
+
+/*# sourceMappingURL=index.css.map */
